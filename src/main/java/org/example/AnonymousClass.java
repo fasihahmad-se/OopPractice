@@ -29,7 +29,7 @@ package org.example;//package org.example;
 //
 
 
-public class Anonymous_Class {
+public class AnonymousClass {
     public static void main(String[] args) {
 
         Thread t = new Thread() {
