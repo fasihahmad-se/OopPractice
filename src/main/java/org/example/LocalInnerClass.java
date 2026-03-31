@@ -5,7 +5,7 @@ package org.example;
 //-->to avoid complex code if class needs helper class then local inner classes
 // are created
 
-public class Local_Inner_Class {
+public class LocalInnerClass {
 
     void print(){
         class  Inner{
@@ -18,7 +18,7 @@ public class Local_Inner_Class {
     }
 
     public static void main(String[] args) {
-        Local_Inner_Class localInnerClass= new Local_Inner_Class();
+        LocalInnerClass localInnerClass= new LocalInnerClass();
         localInnerClass.print();
     }
 }
